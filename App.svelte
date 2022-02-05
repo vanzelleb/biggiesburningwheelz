@@ -51,7 +51,7 @@
 	<h1 class="glow">Biggis Burning Wheelz</h1>
   <p/>
   { #if $user }
-	  <div class="glow">
+	  <div>
       Hallo { $user.user_metadata?.name }, lass uns wissen wann du kommst!
     </div>
     <p/>
