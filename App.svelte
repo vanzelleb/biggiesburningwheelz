@@ -14,11 +14,6 @@
 
 <style>
   main {
-    background-image: url("https://upload.wikimedia.org/wikipedia/fi/1/1c/Simpsons_Otto_Mann.png");
-    background-repeat: no-repeat;
-    background-size: auto 100%;
-    background-position: center top;
-    background-attachment: fixed;
     font-family: Tahoma, sans-serif;
     text-align: center;
     height: 100vh;
@@ -33,7 +28,7 @@
   }
 
   .glow {
-    color: #fff;
+    color: black;
     text-align: center;
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
@@ -54,6 +49,7 @@
 
 <main >
 	<h1 class="glow">Biggis Burning Wheelz</h1>
+  <p/>
   { #if $user }
 	  <div class="glow">
       Hallo { $user.user_metadata?.name }, lass uns wissen wann du kommst!
