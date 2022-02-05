@@ -65,7 +65,7 @@
 </style>
 
 
- <div>
+ <div class="glow">
                 
                 {#if !registered }
                 <div>Meld dich an, damit wir wissen wer die Karre braucht.</div>

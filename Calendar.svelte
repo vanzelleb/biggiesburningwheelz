@@ -47,6 +47,8 @@
     max-width: 400px;
     padding: 4px 10px;
     font-size: 1rem;
+    font-weight: bold;
+    color: white;
   }
 </style>
 
