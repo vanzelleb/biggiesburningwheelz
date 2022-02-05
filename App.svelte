@@ -29,10 +29,10 @@
 </style>
 
 <main>
-	<h1>Henning's & Despi's Alicante Beach P(a)lace</h1>
+	<h1>Biggis Burning Wheelz</h1>
   { #if $user }
 	  <div>
-      Hello { $user.user_metadata?.name }, let us know when you want to come!
+      Hallo { $user.user_metadata?.name }, lass uns wissen wann du kommst!
     </div>
     <p/>
          <Calendar />

@@ -68,11 +68,11 @@
  <div>
                 
                 {#if !registered }
-                <div>Please sign up, so we know who's coming.</div>
+                <div>Meld dich an, damit wir wissen wer die Karre braucht.</div>
                 <p/>
-                <u on:click={() => toggleLogin()}>Been there, done that</u>
+                <u on:click={() => toggleLogin()}>Hab ich schon gemacht</u>
                 {:else}
-                <div>Already registered? Cool, just login.</div>
+                <div>Schon registriert? Cool, log dich ein.</div>
                 <p/>
                 <u on:click={() => toggleLogin()}>Ehmm...</u>
                 {/if}
@@ -83,7 +83,7 @@
                 <input type='email' name='email' bind:value={email} placeholder="Email"/>
                 <p/>
                 {#if !registered }
-                  <button on:click={signUp(email, name)}>Sign Up</button>
+                  <button on:click={signUp(email, name)}>Sign up</button>
                 {:else }
                   <button on:click={login(email)}>Login</button>
                 {/if}
